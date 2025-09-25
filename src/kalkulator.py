@@ -9,6 +9,8 @@ def mnozi(a, b):
     return a * b
 
 def deli(a, b):
+    if b == 0:
+        return "Deljenje sa nulom nije dozvoljeno!"
     return a / b
 
 def main():
