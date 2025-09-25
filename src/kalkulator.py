@@ -8,13 +8,17 @@ def oduzmi(a, b):
 def mnozi(a, b):
     return a * b
 
+def deli(a, b):
+    return a / b
+
 def main():
     print("Kalkulator")
     print("Izaberite operaciju:")
     print("1. Sabiranje")
     print("2. Oduzimanje")
     print("3. Množenje")
-    izbor = input("Unesite broj operacije (1/2/3): ")
+    print("4. Deljenje")
+    izbor = input("Unesite broj operacije (1/2/3/4): ")
     a = float(input("Unesite prvi broj: "))
     b = float(input("Unesite drugi broj: "))
     if izbor == '1':
@@ -23,6 +27,8 @@ def main():
         print("Rezultat:", oduzmi(a, b))
     elif izbor == '3':
         print("Rezultat:", mnozi(a, b))
+    elif izbor == '4':
+        print("Rezultat:", deli(a, b))
     else:
         print("Nepoznata operacija.")
 
