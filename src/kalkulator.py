@@ -26,16 +26,16 @@ def main():
     print("3. Množenje")
     print("4. Deljenje")
     izbor = input("Unesite broj operacije (1/2/3/4): ")
-    a = float(input("Unesite prvi broj: "))
-    b = float(input("Unesite drugi broj: "))
+    prvi_broj = float(input("Unesite prvi broj: "))
+    drugi_broj = float(input("Unesite drugi broj: "))
     if izbor == '1':
-        print("Rezultat:", saberi(a, b))
+        print("Rezultat:", saberi(prvi_broj, drugi_broj))
     elif izbor == '2':
-        print("Rezultat:", oduzmi(a, b))
+        print("Rezultat:", oduzmi(prvi_broj, drugi_broj))
     elif izbor == '3':
-        print("Rezultat:", mnozi(a, b))
+        print("Rezultat:", mnozi(prvi_broj, drugi_broj))
     elif izbor == '4':
-        print("Rezultat:", deli(a, b))
+        print("Rezultat:", deli(prvi_broj, drugi_broj))
     else:
         print("Nepoznata operacija.")
 
