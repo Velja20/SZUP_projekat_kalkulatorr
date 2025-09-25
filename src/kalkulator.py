@@ -1,4 +1,5 @@
-# Početna verzija kalkulatora
+# Jednostavan kalkulator za četiri osnovne operacije
+
 def saberi(a, b):
     return a + b
 
