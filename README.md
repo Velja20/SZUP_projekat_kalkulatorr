@@ -40,7 +40,7 @@ SZUP_projekat_kalkulator
 
 ## Tehnologije
 
-- Python 3.x
+- Python
 
 ## Autor
 
