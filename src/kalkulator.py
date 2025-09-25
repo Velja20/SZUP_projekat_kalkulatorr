@@ -1,15 +1,19 @@
 # Jednostavan kalkulator za četiri osnovne operacije
 
 def saberi(a, b):
+    """Vraća zbir dva broja."""
     return a + b
 
 def oduzmi(a, b):
+    """Vraća razliku dva broja."""
     return a - b
 
 def mnozi(a, b):
+    """Vraća proizvod dva broja."""
     return a * b
 
 def deli(a, b):
+    """Vraća količnik dva broja ili poruku ako je deljenje sa nulom."""
     if b == 0:
         return "Deljenje sa nulom nije dozvoljeno!"
     return a / b
