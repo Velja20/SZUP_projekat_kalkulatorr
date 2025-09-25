@@ -1,5 +1,5 @@
-# SZUP_projekat_kalkulatorr
-Dobrodošli u projekat SZUP_projekat_kalkulatorr!
+# SZUD_projekat_kalkulatorr
+Dobrodošli u projekat SZUD_projekat_kalkulatorr!
 
 Ovaj projekat predstavlja jednostavan kalkulator napravljen u Pythonu, razvijen kao deo zadatka iz predmeta "Softverski Zasnovani Upravljački Programi" (SZUP). Kalkulator omogućava izvođenje osnovnih aritmetičkih operacija kroz komandnu liniju.
 
