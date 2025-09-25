@@ -13,11 +13,16 @@ def mnozi(a, b):
     return a * b
 
 def deli(a, b):
-    """Vraća količnik dva broja ili poruku ako je deljenje sa nulom."""
     if b == 0:
-        return "Deljenje sa nulom nije dozvoljeno!"
+        raise ValueError("Deljenje sa nulom nije dozvoljeno!")
     return a / b
 
+# U main funkciji:
+    try:
+        if izbor == '4':
+            ispisi_rezultat(deli(prvi_broj, drugi_broj))
+    except ValueError as e:
+        print(e)
 def main():
     print("Kalkulator")
     print("Izaberite operaciju:")
